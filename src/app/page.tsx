@@ -14,16 +14,22 @@ export default async function Home() {
         <div className='flex place-items-center justify-center rounded-full bg-blue-600 w-40 h-40  '><span>Foto de perfil</span></div>
 
       </section>
+      <section>
+        <h1>Tecnologys</h1>
+        <div className="flex ">
+          <div className='w-6 h-6'></div>
+        </div>
+      </section>
       <section className='w-full'>
         <h1 className='text-3xl'>My Proyects</h1>
         <div className='grid grid-cols-[repeat(auto-fill,minmax(200px,320px))] gap-8 p-8 justify-center' >
-          <article className='shadow-lg w-full h-60 border border-red-500 hover:scale-110 transition-transform duration-200'></article>
-          <article className='shadow-lg w-full h-60 border border-red-500 hover:scale-110 transition-transform duration-200'></article>
-          <article className='shadow-lg w-full h-60 border border-red-500 hover:scale-110 transition-transform duration-200'></article>
-          <article className='shadow-lg w-full h-60 border border-red-500 hover:scale-110 transition-transform duration-200'></article>
-          <article className='shadow-lg w-full h-60 border border-red-500 hover:scale-110 transition-transform duration-200'></article>
-          <article className='shadow-lg w-full h-60 border border-red-500 hover:scale-110 transition-transform duration-200'></article>
-          <article className='shadow-lg w-full h-60 border border-red-500 hover:scale-110 transition-transform duration-200'></article>
+          <article className='shadow-lg w-full h-60 border border-purple-700 hover:scale-110 transition-transform duration-200'></article>
+          <article className='shadow-lg w-full h-60 border border-purple-700 hover:scale-110 transition-transform duration-200'></article>
+          <article className='shadow-lg w-full h-60 border border-purple-700 hover:scale-110 transition-transform duration-200'></article>
+          <article className='shadow-lg w-full h-60 border border-purple-700 hover:scale-110 transition-transform duration-200'></article>
+          <article className='shadow-lg w-full h-60 border border-purple-700 hover:scale-110 transition-transform duration-200'></article>
+          <article className='shadow-lg w-full h-60 border border-purple-700 hover:scale-110 transition-transform duration-200'></article>
+          <article className='shadow-lg w-full h-60 border border-purple-700 hover:scale-110 transition-transform duration-200'></article>
         </div>
       </section>
     </main>
